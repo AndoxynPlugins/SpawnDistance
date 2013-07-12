@@ -1,0 +1,5 @@
+name: SpawnDistance
+main: net.daboross.bukkitdev.spawndistance.SpawnDistance
+version: 1.0
+author: Dabo Ross
+description: Allows you to check your distance from the world's spawn
