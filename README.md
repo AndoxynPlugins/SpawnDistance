@@ -8,6 +8,7 @@ Features
 Commands
 ========
 * /spawndistance - shows you your distance from the world's spawn.
+* /sd - alias for /spawndistance
 
 Permissions
 ===========
