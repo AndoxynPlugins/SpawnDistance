@@ -1,6 +1,6 @@
 name: SpawnDistance
 main: net.daboross.bukkitdev.spawndistance.SpawnDistance
-version: 1.0.0
+version: 1.1.0
 author: Dabo Ross
 description: Allows you to check your distance from the world's spawn
 commands:
@@ -8,3 +8,4 @@ commands:
     description: Shows you your distance from the world's spawn
     usage: /<command>
     permission: spawndistance.use
+    aliases: [sd]
