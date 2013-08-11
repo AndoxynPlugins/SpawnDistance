@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>net.daboross.bukkitdev.spawndistance</groupId>
-    <artifactId>SpawnDistance</artifactId>
+    <artifactId>spawn-distance</artifactId>
     <packaging>jar</packaging>
     <version>1.1.0</version>
     <name>SpawnDistance</name>
@@ -12,7 +12,16 @@
         </repository>
     </repositories>
     <build>
-        <finalName>SpawnDistance</finalName>
+        <finalName>${project.name}/finalName>
+        <resources>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <includes>
+                    <include>**</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
