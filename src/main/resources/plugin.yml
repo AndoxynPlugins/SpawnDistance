@@ -1,6 +1,6 @@
-name: SpawnDistance
+name: ${project.name}
 main: net.daboross.bukkitdev.spawndistance.SpawnDistance
-version: 1.1.0
+version: ${project.version}
 author: Dabo Ross
 description: Allows you to check your distance from the world's spawn
 commands:
